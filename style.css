@@ -2,16 +2,17 @@ body{
     position: relative;
     left: 5%;
     width: 90%;
-    
+    background-color: #F7F7F7 !important;
 
 }
 
 #logo1{
-    margin: 25px 5% 10px 0%;
+    margin: 25px 5% 10px 6%;
 }
 header{
-    width: 100%;
-
+    margin-left: -6%;
+    width: 111%;
+background-color: white;
 }
 .nav1{
     display: inline-block;
@@ -31,11 +32,12 @@ header{
 }
 
 #login-nav{
-    /* display: inline-block; */
+    
     position: relative;
     top: 5px;    
 float: right;
 margin-top: 22px;
+margin-right: 5%;
 
 }
 
@@ -121,7 +123,7 @@ font-weight: bolder;
     width: 76%;
     display: inline-block;
     position: relative;
-    top: -192px;
+    bottom: 105px ;
     padding: 0px 0px 20px 50px;
 }
 
@@ -186,7 +188,68 @@ text-align: center;
     accent-color: #FFE01B ;    
 }
 
+/* cards */
+
+
+.card-text{
+    position: relative;
+    right:10px;
+    color:black
+    }
+    
+    .img1{
+        margin-right: 5px;
+      width:16px
+    }
+    .vector1{
+        padding-left: 10px;
+    
+        position: relative;
+        right:8px;
+        display: inline-block;
+    }
+    .reviewId{
+        font-size:13.5px;
+        color:black
+    
+    }
+    
+    #register{
+        background-color: #FFE01B;
+        padding: 11px 20px;
+        font-weight: bolder;
+        font-size:14px;
+        font-family: 'Roboto';
+        color:black;
+        float:right;
+         position:relative;
+         bottom:54px;
+         left:90px
+    }
+    
+    #card3{
+        -moz-box-shadow: none;
+        -goog-ms-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: solid 1px #e7e7ed;
+        margin-left:100px;
+        margin-top: 26px;
+        
+    }
+    #GBPDIV
+    {
+        float: right; position: relative; right: 33px; bottom:104px;}
+    
+    
+    #GBP2{
+        font-size:12px ; color:rgb(202, 41, 41); position: relative; bottom: 29px; display: block; right:10px
+    }
 
 footer{
     height: 200px;
 }
+
+/* main{
+    background-color: #F7F7F7;
+} */
