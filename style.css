@@ -130,7 +130,7 @@ font-weight: bolder;
     font-weight: bold;
     
 }
-#first-div div{
+#date-filter{
     border: 1px solid black;
 
 }
@@ -150,4 +150,43 @@ text-align: center;
 }
 #vector img{
     padding-left: 10px;
+}
+
+/* search location */
+
+.location-filter{
+    width: 100%;
+    margin-top: -44px;
+}
+
+#checkbox-location{
+    margin-top: 40px;
+}
+
+#checkbox-location div{
+    padding: 7px 0px;
+}
+
+#checkbox-location div input[type="checkbox"] {
+        accent-color: #FFE01B ;    
+}
+
+#rating{
+    margin-top: -30px;
+}
+#rating div{
+    margin: 20px 0px;
+
+}
+#rating div img{
+    padding: 0px 2px;
+}
+
+#rating div input[type="checkbox"] {
+    accent-color: #FFE01B ;    
+}
+
+
+footer{
+    height: 200px;
 }

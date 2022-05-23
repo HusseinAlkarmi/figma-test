@@ -85,12 +85,12 @@ rel="stylesheet"
 
             <p>Filter by Date</p>
 
-            <div>
+            <div id="date-filter">
                 <li style="background-color: #FFE01B;">All</li>
                 <li>Today</li>
                 <li>This week</li>
                 <li>MAR</li>
-                <li>APR</li>
+                <li style="border: none;">APR</li>
             </div>
             <p id="vector" >Or select period <img src="Image/Vector.png" alt=""></p>
 
@@ -98,14 +98,105 @@ rel="stylesheet"
 
             <p>Filter by Location</p>
 
-            <div>
-                <li style="background-color: #FFE01B;">All</li>
-                <li>Today</li>
-                <li>This week</li>
-                <li>MAR</li>
-                <li>APR</li>
+            <div class="input-group ">
+                <div class="form-outline location-filter">
+                  <input type="search" id="form1" class="form-control" />
+                </div>
+                
+                  <i style="position: relative; top: -30px; left: 90%;" class="fas fa-search"></i>                
+              </div>
+            
+
+              <div id="checkbox-location">
+              <div>
+                <input type="checkbox" 
+                       checked>
+                <label for="united kingdom">United Kingdom(74)</label>
+              </div>
+          
+              <div >
+                <input type="checkbox">
+                <label for="United State">United State(46)</label>
+              </div>
+
+              <div >
+                <input type="checkbox">
+                <label for="Jordan">Jordan(20)</label>
+              </div>
+
+              <div>
+                <input type="checkbox" 
+                       checked>
+                <label for="India">India(15)</label>
+              </div>
+
+              <div >
+                <input type="checkbox">
+                <label for="Hong Kong">Hong Kong(9)</label>
+              </div>
             </div>
-            <p id="vector" >Or select period <img src="Image/Vector.png" alt=""></p>
+<br>
+            <p>Filter by Rating</p>
+            
+            <div id="rating">
+                <div >
+                    <input type="checkbox">
+                    <img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/emptyStar.png" alt="">
+                    &up
+                  </div>
+                  <div >
+                    <input type="checkbox">
+                    <img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/emptyStar.png" alt=""><img src="Image/emptyStar.png" alt="">
+                    &up
+                  </div>
+                  <div >
+                    <input type="checkbox">
+                    <img src="Image/star.png" alt=""><img src="Image/star.png" alt=""><img src="Image/emptyStar.png" alt=""><img src="Image/emptyStar.png" alt=""><img src="Image/emptyStar.png" alt="">
+                    &up                  </div>
+            </div>
+
+            <br>
+            <p>Filter by Industry</p>
+
+            <div class="input-group ">
+                <div class="form-outline location-filter">
+                  <input type="search" id="form1" class="form-control" />
+                </div>
+                
+                  <i style="position: relative; top: -30px; left: 90%;" class="fas fa-search"></i>                
+              </div>
+
+            
+
+              <div id="checkbox-location">
+              <div>
+                <input type="checkbox" 
+                       checked>
+                <label for="Design">Design(74)</label>
+              </div>
+          
+              <div >
+                <input type="checkbox">
+                <label for="IT">IT(46)</label>
+              </div>
+
+              <div >
+                <input type="checkbox">
+                <label for="Telecommunication">Telecommunication(20)</label>
+              </div>
+
+              <div>
+                <input type="checkbox" 
+                       checked>
+                <label for="Engineering">Engineering(15)</label>
+              </div>
+
+              <div >
+                <input type="checkbox">
+                <label for="Education">Education(9)</label>
+              </div>
+            </div>
+
         </div>
 
 
@@ -113,7 +204,7 @@ rel="stylesheet"
         <div id="second-div">
 
 
-<div class="card mb-3" style="max-width: 540px;">
+<!-- <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
         <img src="Image/Rectangle 2.png" class="img-fluid rounded-start" alt="...">
@@ -122,11 +213,11 @@ rel="stylesheet"
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+         
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
         </div>
 
     </div>
