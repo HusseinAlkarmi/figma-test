@@ -29,6 +29,8 @@ rel="stylesheet"
 <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@4.1.4/dist/css/coreui.min.css" rel="stylesheet" integrity="sha384-YUdsYsgRlkUONN8mdJ0FYda0kzlomX2TWturtRobleAB8py9rvyfGQzJdLRc9lFL" crossorigin="anonymous">
 </head>
 <body>
+
+  
     <header>
 
         <img id="logo1" src="Image/logo.png" alt="">
@@ -217,7 +219,7 @@ rel="stylesheet"
                     <img style="float:right" src="Image/heart.png" width="18px" alt="">
                     <h5
                       style="font-weight: bold; color: black"
-                      class="card-title"
+                      class="card-title" id="dom" 
                     >
                       Diploma in professional interior design
                     </h5>
@@ -258,7 +260,9 @@ rel="stylesheet"
                  <p  >GBP 1,321</p>
                  <p id="GBP2">Only two seats left!</p>
                 </div>
-                  <a href="#" id="register">REGISTER NOW</a>
+                <!-- <a href="page2.php" onclick="myFunction(dom)" id="register">REGISTER NOW</a> -->
+
+             
                 </div>
                
                   </div>
@@ -282,9 +286,9 @@ rel="stylesheet"
                       <img style="float:right" src="Image/emptyHeart.png" width="18px" alt="">
                       <h5
                         style="font-weight: bold; color: black"
-                        class="card-title"
+                        class="card-title" id="dom2"
                       >
-                        Diploma in professional interior design
+                        Diploma in professional interior design 2
                       </h5>
                       <p class="card-text">
                         <img
@@ -323,7 +327,7 @@ rel="stylesheet"
                    <p  >GBP 3,000</p>
                    <!-- <p id="GBP2" >Only two seats left!</p> -->
                   </div>
-                    <a href="#" id="register">REGISTER NOW</a>
+                  <button onclick="myFunction(dom2)" id="register">REGISTER NOW</button>
                   </div>
                  
                     </div>
@@ -388,7 +392,7 @@ rel="stylesheet"
                    <p  >GBP 1,321</p>
                    <p id="GBP2">Only two seats left!</p>
                   </div>
-                    <a href="#" id="register">REGISTER NOW</a>
+                  <button onclick="myFunction()" id="register">REGISTER NOW</button>
                   </div>
                  
                     </div>
@@ -453,7 +457,7 @@ rel="stylesheet"
                    <p  >GBP 1,321</p>
                    <p id="GBP2">Only two seats left!</p>
                   </div>
-                    <a href="#" id="register">REGISTER NOW</a>
+                    <button onclick="myFunction()" id="register">REGISTER NOW</button>
                   </div>
                  
                     </div>
@@ -461,15 +465,23 @@ rel="stylesheet"
                 </div>
               </div>
           </div>
-
+          <form action="page2.php" method="post">
+            Name: <input type="text" name="name"><br>
+            E-mail: <input type="text" name="email"><br>
+            <input type="submit">
+          </form>
     </div>
     </main>
 
 
 
-    <footer>
+    <script src="script.js"></script>
 
-    </footer>
+    <!-- <script>
+      function myFunction() {
+        alert("I am an alert box!");
+      }
+      </script> -->
     <!-- MDB -->
 <script
 type="text/javascript"

@@ -250,6 +250,6 @@ footer{
     height: 0px;
 }
 
-/* main{
-    background-color: #F7F7F7;
-} */
+#register:hover{
+    background-color: purple;
+}
