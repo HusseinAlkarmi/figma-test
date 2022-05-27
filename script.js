@@ -4,8 +4,8 @@ let dom = document.getElementById('dom');
 // dom.innerHTML = dom;
 function myFunction(dom) {
     
-    // alert( dom.innerHTML );
-    dom.innerHTML = 'dom';
+    alert( dom.innerHTML );
+    // dom.innerHTML = 'dom';
   }
 
 // var page1 = document.getElementById('page1').innerHTML;
